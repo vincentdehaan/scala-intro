@@ -27,7 +27,6 @@ object Example extends App {
       (acc, nw) => if(nw % 2 != 0) acc - nw else acc + nw)
 
 
-
   // Case classes
   case class Foo(bar: String, baz: Int)
 
