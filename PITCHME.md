@@ -16,9 +16,7 @@
 
 ## Introduction
 
-```
 Java -----> Scala <----- Haskell
-```
 
 ---
 
@@ -28,6 +26,8 @@ Install:
 - scala
 - sbt
 - InteliJ (with Scala and Sbt support)
+
+
 
 See for the material of this presentation: https://github.com/vincentdehaan/scala-intro
 
@@ -57,7 +57,7 @@ scala HelloWorld
 @[8,14-15]
 @[8,17-18]
 @[8,20-21]
-@[8,23-24]
+@[8,23-26]
 
 ---
 

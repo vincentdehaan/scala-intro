@@ -21,9 +21,9 @@ object Example extends App {
   val smallerThanPr = lst.zip(lst.tail).find { case (a, b) => b < a }.map(_._2)
 
   // Start at zero, add even, subtract odd
-  val addAndSubtract = lst.foldLeft(0)((acc, nw) => if(nw % 2 != 0) acc - nw else acc + nw)
-
-
+  val addAndSubtract =
+    lst.foldLeft(0)(
+      (acc, nw) => if(nw % 2 != 0) acc - nw else acc + nw)
 
 
 
