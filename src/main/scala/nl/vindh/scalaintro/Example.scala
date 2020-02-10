@@ -18,7 +18,8 @@ object Example extends App {
   val meanSquare = lst.map(x => x * x).sum / lst.size
 
   // Get the first number that's smaller than it's predecessor
-  val smallerThanPr = lst.zip(lst.tail).find { case (a, b) => b < a }.map(_._2)
+  val smallerThanPr =
+    lst.zip(lst.tail).find { case (a, b) => b < a }.map(_._2)
 
   // Start at zero, add even, subtract odd
   val addAndSubtract =
